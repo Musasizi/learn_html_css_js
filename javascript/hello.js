@@ -74,3 +74,10 @@ console.log("Name:", studentObj.name);
 
 
 console.log(`Program Name: ${studentObj.program}`);
+
+// Literals in JS
+// String Literals
+// Boolean Literals
+// Numerical Literals
+// Object Literals
+// Collections Literals
