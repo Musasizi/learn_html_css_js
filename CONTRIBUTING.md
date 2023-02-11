@@ -1,6 +1,4 @@
-# learn_html_css_js
-
-## How to Contribute
+# How to Contribute
 Below are steps you may follow as you write your contribution.
 1. Fork [this repository](https://github.com/Musasizi/learn_html_css_js). You can find the `fork button` at top right or click [here](https://github.com/Musasizi/learn_html_css_js/fork) to automatically create your own fork.
 2. Clone your fork. Your fork is your copy of this repository.The link to your fork will be something like `https://github.com/your-user-name/learn_html_css_js`
