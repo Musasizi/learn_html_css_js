@@ -1,0 +1,30 @@
+//Comparison operators are used to contrast between values 
+//They usually return a boolean response ( true or false)
+
+let z=8
+
+//== compares z with a given value to see if it is equal or not
+console.log(z==9) //Returns a false because its not true.
+
+//=== compares z with the value and type of the other value 
+console.log(z==="8") //Returns false because 8 is now a string not an integer like assigned above
+
+
+//!= checks to see if z is not equal to a given value .
+console.log(z!=7) //Returns true because z is not equal to 7 , z is equal to 8
+
+//!== It will return true if either the type or value matches that of z (one of them should be true for it to return true)
+console.log(z!==9) 
+
+//> Used to compare if z is greater than a given value 
+console.log(z>9) 
+
+//> Used to compare if z is less than a given value 
+console.log(z<4)
+
+//>= Used to check if z is greater than or equal to a given value
+console.log(z>=8)
+
+//<= Used to check if z is less than or equal to a given value
+console.log(z<=8)
+
