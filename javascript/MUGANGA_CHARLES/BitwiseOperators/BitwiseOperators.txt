@@ -1,0 +1,79 @@
+Bitwise operators are used to perform operations on bits of numbers.
+The bitwise operators in JavaScript are:
+Bitwise AND ( & )
+Bitwise OR ( | )
+Bitwise XOR ( ^ )
+Bitwise NOT ( ~ )
+Left shift ( << )
+Sign-propagating right shift ( >> )
+Zero-fill right shift ( >>> )
+
+Bitwise AND ( & )
+The bitwise AND operator (&) takes two numbers as operands and does AND on every bit of two numbers.
+The truth table for AND is:
+a	b	a & b
+0	0	0
+0	1	0
+1	0	0
+1	1	1
+The result of a & b is 0 if either a or b is 0. Otherwise, the result is 1.
+The bitwise AND operator copies a bit to the result if it exists in both operands.
+
+Bitwise OR ( | )
+The bitwise OR operator (|) takes two numbers as operands and does OR on every bit of two numbers.
+The truth table for OR is:
+a	b	a | b
+0	0	0
+0	1	1
+1	0	1
+1	1	1
+The result of a | b is 1 if either a or b is 1. Otherwise, the result is 0.
+The bitwise OR operator copies a bit if it exists in either operand.
+
+Bitwise XOR ( ^ )
+The bitwise XOR operator (^) takes two numbers as operands and does XOR on every bit of two numbers.
+The truth table for XOR is:
+a	b	a ^ b
+0	0	0
+0	1	1
+1	0	1
+1	1	0
+The result of a ^ b is 1 if the bits are different. Otherwise, the result is 0.
+
+Bitwise NOT ( ~ )
+The bitwise NOT operator (~) takes one number as an operand and inverts all bits of it.
+The truth table for NOT is:
+a	~a
+0	1
+1	0
+The bitwise NOT operator is unary and has the effect of 'flipping' bits.
+
+Left shift ( << )
+The left shift operator (<<) takes two numbers, left shifts the bits of the first operand, the second operand decides the number of places to shift.
+The truth table for left shift is:
+a	b	a << b
+0	0	0
+0	1	0
+1	0	1
+1	1	2
+The left shift operator is similar to multiplication by powers of two.
+
+Sign-propagating right shift ( >> )
+The sign-propagating right shift operator (>>) takes two numbers, right shifts the bits of the first operand, the second operand decides the number of places to shift.
+The truth table for sign-propagating right shift is:
+a	b	a >> b
+0	0	0
+0	1	0
+1	0	1
+1	1	0
+The sign-propagating right shift operator is similar to division by powers of two.
+
+Zero-fill right shift ( >>> )
+The zero-fill right shift operator (>>>) takes two numbers, right shifts the bits of the first operand, the second operand decides the number of places to shift, and assigns 0 to the leftmost bits.
+The truth table for zero-fill right shift is:
+a	b	a >>> b
+0	0	0
+0	1	0
+1	0	1
+1	1	0
+The zero-fill right shift operator is similar to division by powers of two.

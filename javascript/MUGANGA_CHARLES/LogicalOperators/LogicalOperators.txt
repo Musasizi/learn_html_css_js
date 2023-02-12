@@ -1,0 +1,11 @@
+Logical Operators in JavaScript 
+Logical operators are used to determine the logic between variables or values.
+
+Logical AND (&&)
+The logical AND operator (&&) returns true if and only if the operands to the left and right of it are true.
+
+Logical OR (||)
+The logical OR operator (||) returns true if either of the operands is true. Otherwise, it returns false.
+
+Logical NOT (!)
+The logical NOT operator (!) returns true if its single operand that can be of any type is false; otherwise, returns false.
