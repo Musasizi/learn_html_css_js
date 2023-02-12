@@ -37,3 +37,6 @@ console.log(k >= l); // true
 let m = 10;
 let n = 10;
 console.log(m <= n); // true
+
+//some other comparison operators exist, hwowever
+//still working on Understanding them
