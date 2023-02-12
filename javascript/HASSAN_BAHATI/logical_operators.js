@@ -58,3 +58,17 @@ console.log(!(e > 0 || f > 0)); // output: false
  */
 
 console.log(e > 0 || f > 0); // output: true
+
+// Logical OR assignment (||=)
+/**
+ * The logical OR assignment (x ||= y) operator only assigns if x is falsy.
+ */
+
+const m = { duration: 50, title: "" };
+
+m.duration ||= 10;
+console.log(a.duration);
+// Expected output: 50
+
+m.title ||= "title is empty.";
+console.log(m.title); // output: "title is empty"
