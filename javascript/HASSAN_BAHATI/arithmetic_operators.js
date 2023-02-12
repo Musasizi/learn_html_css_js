@@ -1,10 +1,9 @@
 /**ARITHMENTIC OPERATORS */
-
-//ADDITION OPERATOR
-/**returns the sum of the operands */
 let a = 3;
 let x = (100 + 50) * a;
 
+//ADDITION OPERATOR
+/**returns the sum of the operands */
 console.log(a + x); // output: 453
 
 // SUBTRACTION OPERATOR
