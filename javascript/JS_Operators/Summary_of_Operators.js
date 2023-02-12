@@ -22,22 +22,22 @@ num3 /= num2;
 num3 %= num1;
 
 // Comparison operators
-let isEqual = num1 == num2;
-let isNotEqual = num1 != num2;
-let isStrictEqual = num1 === num2;
-let isStrictNotEqual = num1 !== num2;
-let isGreaterThan = num1 > num2;
-let isLessThan = num1 < num2;
-let isGreaterThanOrEqualTo = num1 >= num2;
-let isLessThanOrEqualTo = num1 <= num2;
+let is_Equal = num1 == num2;
+let is_Not_Equal = num1 != num2;
+let is_Strict_Equal = num1 === num2;
+let is_Strict_Not_Equal = num1 !== num2;
+let is_Greater_Than = num1 > num2;
+let is_Less_Than = num1 < num2;
+let is_Greater_Than_Or_Equal_To = num1 >= num2;
+let is_Less_Than_Or_Equal_To = num1 <= num2;
 
 // Logical operators
-let andResult = bool1 && bool2;
-let orResult = bool1 || bool2;
-let notResult = !bool1;
+let and_Result = bool1 && bool2;
+let or_Result = bool1 || bool2;
+let not_Result = !bool1;
 
 // String concatenation
-let concatResult = str1 + " " + str2;
+let concat_Result = str1 + " " + str2;
 
 // Outputting results to the console
 console.log("Sum: ", sum);
@@ -46,15 +46,15 @@ console.log("Product: ", product);
 console.log("Quotient: ", quotient);
 console.log("Modulus: ", modulus);
 console.log("Num3 after arithmetic operations: ", num3);
-console.log("Is equal: ", isEqual);
-console.log("Is not equal: ", isNotEqual);
-console.log("Is strict equal: ", isStrictEqual);
-console.log("Is strict not equal: ", isStrictNotEqual);
-console.log("Is greater than: ", isGreaterThan);
-console.log("Is less than: ", isLessThan);
-console.log("Is greater than or equal to: ", isGreaterThanOrEqualTo);
-console.log("Is less than or equal to: ", isLessThanOrEqualTo);
-console.log("And result: ", andResult);
-console.log("Or result: ", orResult);
-console.log("Not result: ", notResult);
-console.log("String concatenation result: ", concatResult);
+console.log("Is equal: ", is_Equal);
+console.log("Is not equal: ", is_Not_Equal);
+console.log("Is strict equal: ", is_Strict_Equal);
+console.log("Is strict not equal: ", is_Strict_Not_Equal);
+console.log("Is greater than: ", is_Greater_Than);
+console.log("Is less than: ", is_Less_Than);
+console.log("Is greater than or equal to: ", is_Greater_Than_Or_Equal_To);
+console.log("Is less than or equal to: ", is_Less_Than_Or_Equal_To);
+console.log("And result: ", and_Result);
+console.log("Or result: ", or_Result);
+console.log("Not result: ", not_Result);
+console.log("String concatenation result: ", concat_Result);
