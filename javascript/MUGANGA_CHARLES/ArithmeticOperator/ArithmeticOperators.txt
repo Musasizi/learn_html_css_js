@@ -1,0 +1,36 @@
+Arithmetic Operators in JavaScript includes the following operators:
+i) Addition (+)
+ii) Subtraction (-)
+iii) Multiplication (*)
+iv) Division (/)
+v) Modulus (%)
+vi) Increment (++)
+vii) Decrement (--)
+viii) Exponentiation (**)
+
+Arithmetic Operators in JavaScript
+
+i) Addition (+)
+The addition operator is used to add two numbers. It can also be used to concatenate two strings.
+
+ii) Subtraction (-)
+The subtraction operator is used to subtract two numbers.
+
+iii) Multiplication (*)
+The multiplication operator is used to multiply two numbers.
+
+iv) Division (/)
+The division operator is used to divide two numbers.
+
+v) Modulus (%)
+The modulus operator is used to find the remainder of two numbers.
+
+vi) Increment (++)
+The increment operator is used to increase the value of a number by 1.
+
+vii) Decrement (–)
+The decrement operator is used to decrease the value of a number by 1.
+
+viii) Exponentiation (**)
+The exponentiation operator is used to raise a number to a power.
+

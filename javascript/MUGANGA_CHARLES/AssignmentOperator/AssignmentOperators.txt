@@ -1,0 +1,52 @@
+Assignment Operators in Javascript includes a number of operators that can be used to assign values to variables.
+The most common assignment operator is the equal sign (=), which assigns the value of its right operand to its left operand.
+That is, x = y assigns the value of y to x.
+The following table lists the assignment operators in JavaScript.
+Assignment Operator Description 
+Example
+
+i) = Simple assignment operator.
+x = y;
+
+ii) += Add and assignment operator.
+It adds the right operand to the left operand and assigns the result to the left operand. 
+x += y;
+
+iii) -= Subtract and assignment operator.
+It subtracts the right operand from the left operand and assigns the result to the left operand.
+x -= y; 
+
+iv) *= Multiply and assignment operator.
+It multiplies the right operand with the left operand and assigns the result to the left operand.
+x *= y;
+
+v) /= Divide and assignment operator.
+It divides the left operand with the right operand and assigns the result to the left operand.
+x /= y; 
+
+vi) %= Modulus and assignment operator.
+It takes modulus using two operands and assigns the result to the left operand.
+x %= y;
+
+vii) <<= Left shift and assignment operator.
+It shifts the left operand the specified number of bits to the left and assigns the result to the left operand.
+x <<= y; 
+
+xi) >>= Right shift and assignment operator.
+It shifts the left operand the specified number of bits to the right and assigns the result to the left operand.
+x >>= y; 
+
+x) >>>= Unsigned right shift and assignment operator.
+It shifts the left operand the specified number of bits to the right and assigns the result to the left operand.
+
+x >>>= y; &= Bitwise AND and assignment operator.
+It performs a bitwise AND on the left and right operands and assigns the result to the left operand.
+x &= y; 
+
+xi) ^= Bitwise XOR and assignment operator.
+It performs a bitwise XOR on the left and right operands and assigns the result to the left operand.
+x ^= y; 
+
+xii)|= Bitwise OR and assignment operator. 
+It performs a bitwise OR on the left and right operands and assigns the result to the left operand.
+ x |= y; 
