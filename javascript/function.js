@@ -15,4 +15,42 @@ const subtractNumbers = (num1, num2) => {
 
 const multiplyNumbers = (num1, num2) => num1 * num2;
 
-console.log(multiplyNumbers(45, 50));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function temperature(temp) {
+    
+    console.log("NORMAL")
+   
+    if (temp > 37) {
+        console.log("FEVER")
+        console.log("A")
+        console.log("B")
+    }
+}
+
+temperature(38)
+
+
+
+
+
+
+
+multiplyNumbers(45, 50)
+// console.log("Hello, world!")
