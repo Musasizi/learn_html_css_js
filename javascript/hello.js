@@ -81,3 +81,4 @@ console.log(`Program Name: ${studentObj.program}`);
 // Numerical Literals
 // Object Literals
 // Collections Literals
+console.log("This is WILSON'S WORLD AND YOU ARE JUST LIVING IN IT!!!!")
