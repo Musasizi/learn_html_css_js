@@ -1,34 +1,44 @@
 const arr1 = [1, 3, 3, 5, 6, 4];
+arr1.push(10);
+// console.log(arr1);
+arr1.pop();
+// console.log(arr1);
 
 const arr2 = [1, 3, 3, "BOY", 6.5, "LADY", false];
 
-// console.log(hostels[3])
-// console.log(hostels.length)
-// hostels.push("Nsibambi")
-// hostels.push("Sabiti")
-// console.log(hostels)
-
 const listOfHostels = () => {
-  return ["Tupendane", "Cronos", "Sky Courts", "Davids Ark"];
+  return ["Tupendane", "Cronos", "Sky Courts", "Davids Ark", "PDR"];
 };
-function mentionHostels() {
-  for (let i = 0; i < listOfHostels().length; i++) {
-    console.log(`Number ${i + 1} ${listOfHostels()[i]}`);
-  }
-}
 
-// mentionHostels()
+// Hostel array
+const hostels = listOfHostels();
+
+// My object
+const myObject = {
+  name: "Zaza",
+  age: 21,
+  gender: "male",
+  courseUnits: [
+    "Web programing",
+    "Database programing",
+    "Linear Algebra",
+    "Computational complexity",
+  ],
+};
+
+// Using a do...while loop
 const doWhileLoop = (arr) => {
   let i = 0;
 
   do {
-    console.log(arr[i] + " yellow banana");
+    console.log(arr[i]);
     i++;
-  } while (i < arr.length);
+  } while (hostels[i] !== "Cronos");
 };
 
-doWhileLoop(arr2);
+// doWhileLoop(hostels);
 
+// Using a whileLoop
 const whileLoop = (arr) => {
   let j = 0;
 
@@ -40,29 +50,64 @@ const whileLoop = (arr) => {
 
 // whileLoop(arr1);
 
-/*
-    do - while loop
-    while loops
-    for in
-    for of
-    map()
-    filter()
-    reduce()
-    push()
-    pop()
-    every()
-    fill()
-    
- */
+// Using the for..in syntanx and the for...of syntax.
+const forinLoopAndForOf = (obj) => {
+  for (let key in obj) {
+    if (Array.isArray(obj[key])) {
+      console.log(`${key}:`);
 
-// for (let number = 1; number <= MAX_NUM; number++) {
-//     console.log("The natural number is ", number)
-// }
+      for (let course of obj[key]) {
+        console.log(`- ${course}`);
+      }
+    } else {
+      console.log(`${key}: ${myObject[key]}`);
+    }
+  }
+};
 
-// let sum = 0;
-// const MAX_NUM = 100;
-// for (let number = 1; number <= MAX_NUM; number++) {
-//     sum += number;
-// }
+// forinLoopAndForOf(myObject);
 
-// console.log(sum)
+// Using the filter method
+const usingFilter = (arr) => {
+  const result = arr.filter((value) => value.length < 8);
+  return result;
+};
+
+// console.log(usingFilter(hostels));
+
+// Using the Map method
+const usingMap = (arr) => {
+  const result = arr.map((val) => val + " mapped over");
+  return result;
+};
+
+// console.log(usingMap(hostels));
+
+// Using the reduce method
+const usingReduce = (arr, initialValue) => {
+  const result = arr.reduce(
+    (accumulator, currentValue) => accumulator + currentValue,
+    initialValue
+  );
+  return result;
+};
+
+// console.log(usingReduce(arr1, 2));
+
+// Using the Every method
+const allPositiveNumbers = (arr) => {
+  return arr.every((num) => {
+    return num > 0;
+  });
+};
+
+// console.log(allPositiveNumbers(arr1));
+
+// Using the Fill function
+const usingFill = (arr, value, start, end = arr.length) => {
+  const result = arr.fill(value, start, end);
+
+  return result;
+};
+
+// console.log(usingFill(arr1, 4, 1, 4));
