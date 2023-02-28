@@ -1,0 +1,49 @@
+map()
+This method creates a new array with the results of calling a function for every array element.
+The map() method calls the provided function once for each element in an array, in order.
+
+filter()
+The filter() method creates a new array with all elements that pass the test implemented by the provided function. 
+
+reduce()
+The reduce() method executes a reducer function (that you provide) on each element of the array, resulting in a single output value.
+
+push()
+The push() method adds one or more elements to the end of an array and returns the new length of the array.
+
+pop()
+The pop() method removes the last element from an array and returns that element. This method changes the length of the array. 
+
+every()
+The every() method tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value.
+
+fill()
+The fill() method fills all the elements of an array from a start index to an end index with a static value. The end index is not included.
+
+unshift()
+The unshift() method adds one or more elements to the beginning of an array and returns the new length of the array.
+
+shift()
+The shift() method removes the first element from an array and returns that removed element. This method changes the length of the array.
+
+slice()
+The slice() method returns a shallow copy of a portion of an array into a new array object selected from begin to end (end not included). The original array will not be modified.
+
+splice()
+The splice() method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
+
+concat()
+The concat() method is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.
+
+sort()
+The sort() method sorts the elements of an array in place and returns the array. The sort is not necessarily stable. The default sort order is according to string Unicode code points.
+
+reverse()
+The reverse() method reverses an array in place. The first array element becomes the last, and the last array element becomes the first.
+
+indexOf()
+The indexOf() method returns the first index at which a given element can be found in the array, or -1 if it is not present.
+
+Note: 
+-the methods do not execute the function for array elements without values.
+-the method do not change the original array.
