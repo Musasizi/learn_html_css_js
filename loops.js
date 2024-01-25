@@ -103,3 +103,22 @@ let images = ["kid","chick"];
 images.fill("duck");
 
 console.log("images");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// snake_case
+// camelCase
+// MACRO_CASE
+// CapsCase
