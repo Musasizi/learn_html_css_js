@@ -12,6 +12,7 @@ while (numberVector > 10){
         console.log("That is your current age!");
 }
 
+
 //For Loop
 mealsPlan = ["me","je", "ker"];
 
